@@ -37,8 +37,8 @@ if (Meteor.isClient) {
 if (Meteor.isServer) {
   Meteor.startup(function () {
     if (Players.find().count() === 0) {
-      var names = ["Ada Lovelace", "Grace Hopper", "Marie Curie",
-                   "Carl Friedrich Gauss", "Nikola Tesla", "Claude Shannon"];
+      var names = ["Manish Regmi", "Babar Dariwal", "Rohit Fucchay",
+                   "Kobra Cooking-god", "Enam Gajaking", "Ziad Fighter"];
       _.each(names, function (name) {
         Players.insert({
           name: name,
